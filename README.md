@@ -1,5 +1,3 @@
-# ovpn-radius-py
-radius integration with python scripts
 # ovpn-radius-py | OpenVPN Radius Plugin (Python)
 
 Python-based OpenVPN plugin with Radius Authentication and Accounting support using the [pyrad](https://github.com/pyradius/pyrad) library.
@@ -40,7 +38,7 @@ script-security 2
 ```
 
 ## 说明
-- 灵感参考go版本，https://github.com/rakasatria/ovpn-radius
+
 - 认证、记账、环境变量打印等功能与 Go 版一致。
 - 使用纯 Python 实现 RADIUS 协议，不再依赖 radclient 工具。
 - 日志、数据库、配置文件路径与 Go 版兼容。
