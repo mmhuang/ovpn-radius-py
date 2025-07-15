@@ -15,9 +15,9 @@ from pyrad.dictionary import Dictionary
 import pyrad.packet
 import traceback
 
-CONFIG_PATH = "/etc/openvpn/plugin/config.json"
+CONFIG_PATH = "/etc/openvpn/plugin/auth-radius-py/config.json"
 # CONFIG_PATH = "/var/huabo/workspace/openvpn/src/plugins/auth-radius-py/config.json"
-DATABASE_PATH = "/etc/openvpn/plugin/ovpn-radius.db"
+DATABASE_PATH = "/etc/openvpn/plugin/auth-radius-py/ovpn-radius.db"
 DICTIONARY_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dictionary")
 
 # --- Config loading ---

@@ -15,12 +15,12 @@
       "Authentication":
       {
         "Server": "10.126.65.134:1812",
-        "Secret": "HuaboRadius2018"
+        "Secret": "YourPasswordHere"
       },
       "Accounting":
       {
         "Server": "10.126.65.134:1813",
-        "Secret": "HuaboRadius2018"
+        "Secret": "YourPasswordHere"
       },
       "Retry":
       {
